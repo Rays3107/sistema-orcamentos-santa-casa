@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Banco de dados com dados reais
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Backups locais
+backup_original/
+*_BACKUP.py
+*_backup.py
+
+# Arquivos temporários e configurações
+*.log
+.env
